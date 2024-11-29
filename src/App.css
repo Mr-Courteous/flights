@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+
+.first-section {
+  margin: auto;
+  background-image: url('https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+  max-height: 298.59375px;
+  min-height: 136px;
+
+  height: 23.92578125vw;
+
+}
+
+
+.flights {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 200px;
+  font-family: "Google Sans", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 44px;
+  color: #202124;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+@media (max-width: 768px) {
+  /* Styles for devices with a minimum width of 768px */
+  .flights {
+padding-top: 90px;  }
+
+}
+
+
+/* SECTION TWO */
+
+.search-input{
+
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.2);
+  padding:10px;
+
+
+
+}
+.search-input-one {
+
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+
+}
+
+.input-one {
+  color: #5f6368;
+  outline: none;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+.input-two {
+  color: #5f6368;
+  outline: none;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.click-add {
+  width: 10px;
+
+}
+
+.number-of-passengers {
+  border: none;
+  /* width: 5px; */
+  margin: 10px;
+  padding: 2px;
+  background-color: aqua;
+}
+
+.number-of-passengers:focus {
+  outline: none;
+  border: none;
+}
+
+
+.whereto-and-date{
+  width: 30%;
+  height: 40px;
+
+  padding:20px;
+  margin: 5px;
+}
+
+.whereto-and-date:focus{
+  outline: blue;
+  border: 1px solid blue;
+}
+
+
+
+.props{
+  width:50%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  /* Styles for devices with a minimum width of 768px */
+  .props {
+    width:100%;
+  }
+
+}
+
+
+.props-list{
+  padding: 50px;
+}
+
+
+.toFro{
+  line-height: 50px;
+  font-family: "Trirong", serif;
+}
+
+
+.submit-button{
+width:50px;
+margin: auto;
+}
